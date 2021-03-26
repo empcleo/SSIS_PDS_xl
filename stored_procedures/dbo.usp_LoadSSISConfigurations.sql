@@ -24,7 +24,8 @@ MODIFICATION LOG:
 Ver      Date        Author           Description
 -------  ----------  ---------------  ------------------------------------------------------------------------
 1.0      11/03/2019  JJAUSSI          1. Created this process for LDS BC IT243
-
+1.1      19/03/2021  XLOPEZ           1. Added DFNB3 connection configuration
+1.2      25/03/2021  XLOPEZ           1. Added LoadDFNB3_xl configuration
 
 
 RUNTIME: 
@@ -120,6 +121,7 @@ SELECT c.*
 
     -- 3) Package level configurations
 
+	
 
     -- 3.1) SSIS_PDS_Template_xl
 
