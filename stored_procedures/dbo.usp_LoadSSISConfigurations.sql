@@ -165,6 +165,26 @@ SELECT c.*
          , 'String'
           );
 
+	--  3.3) LoadEXM_xl
+
+    DELETE FROM dbo.[SSIS Configurations]
+     WHERE ConfigurationFilter = 'LoadEXM_xl';
+	
+
+	-- 3.1.1) v_data_share_root
+
+    INSERT INTO dbo.[SSIS Configurations](ConfigurationFilter
+                                        , ConfiguredValue
+                                        , PackagePath
+                                        , ConfiguredValueType)
+    VALUES
+          (
+           'LoadEXM_xl'
+		 , 'C:\Classes\IT243\Repos\EXM_xl\txt_files\'
+         , '\Package.Variables[User::v_data_share_root].Properties[Value]'
+         , 'String'
+          );
+
 
 END;
 
