@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LoadDFNB3_xl"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{49162EBD-AD84-4F57-8F44-671DB0C412CE}">
+  DTS:VersionBuild="86"
+  DTS:VersionGUID="{2E67C3C5-A71E-49FD-905B-B5DBF7072588}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -73,7 +73,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id"
-              DTS:DTSID="{0432F86F-4972-47C5-ACD0-8368C6B2A340}"
+              DTS:DTSID="{14FC0911-30B0-4023-8C9B-D2B21DD1A1D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -81,7 +81,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_id"
-              DTS:DTSID="{EF2F09F6-1AA4-4DA3-B4CE-C58FD464A0B3}"
+              DTS:DTSID="{332C3723-ED9D-4D93-8E1D-6E30BF41E96B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_cust_role_id"
-              DTS:DTSID="{913EC37F-DD8F-4373-A00E-0FC312F396C4}"
+              DTS:DTSID="{A2C4B43B-9B86-4443-B5AF-705EF7EE4850}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -97,7 +97,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id2"
-              DTS:DTSID="{40229DE6-23E7-4ED1-B73D-98895D88406E}"
+              DTS:DTSID="{CC9EC108-A56A-45E3-B375-86B447D29E2D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -105,7 +105,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="prod_id"
-              DTS:DTSID="{AD754599-D179-4BD1-8D27-BC94517B497E}"
+              DTS:DTSID="{2FDD1043-5FD7-400E-836B-C69AFB67B93D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,7 +113,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="open_date"
-              DTS:DTSID="{EE9ED0E6-9589-45A8-A88D-B979BEDF6ACA}"
+              DTS:DTSID="{0552B114-9317-4B6E-959E-8612D12A2BB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +121,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="close_date"
-              DTS:DTSID="{BBF17375-CD33-41A9-9B67-5CF4EBE0E482}"
+              DTS:DTSID="{B5B3DC7E-B66F-44F3-850C-FA1AB01A9A64}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="open_close_code"
-              DTS:DTSID="{5EEE2C31-1692-4B12-A844-243C6C954835}"
+              DTS:DTSID="{6BF8AB17-CC1A-4C18-B05F-87D1F94F431A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="branch_id"
-              DTS:DTSID="{7D78B10B-EEED-451F-B2C2-8674756AD964}"
+              DTS:DTSID="{6AFB6338-EC42-4B36-ABC7-4F3C3CF675F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -146,7 +146,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_rel_id"
-              DTS:DTSID="{4F487A15-8F53-405C-8195-607275C00B79}"
+              DTS:DTSID="{9D6D30A7-6526-4081-B303-92696F53881A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -154,7 +154,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="pri_cust_id"
-              DTS:DTSID="{580A103E-699E-4F09-BA81-44F7FA14380E}"
+              DTS:DTSID="{43D88E08-9725-4568-8F85-A78DABF92825}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -164,7 +164,7 @@
               DTS:DataScale="4"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amt"
-              DTS:DTSID="{F091A905-6206-45EC-A1B9-E9627FBF1D75}"
+              DTS:DTSID="{5078A4C9-AEA8-4ECE-B321-931C179BED2D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -172,7 +172,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_id"
-              DTS:DTSID="{4F00E9F1-A73B-4BF9-A347-F0F3E8E1CC1B}"
+              DTS:DTSID="{F5D7656E-B1D2-4580-BB2B-501DAB162687}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -181,7 +181,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_code"
-              DTS:DTSID="{97DEC48B-B556-48BB-8BC8-30D7F2A99975}"
+              DTS:DTSID="{603D5163-708A-4A79-9998-1FE234FB06DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -190,7 +190,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_desc"
-              DTS:DTSID="{17E1D6A4-D3EC-446B-B145-34D4C6430F0C}"
+              DTS:DTSID="{13F82860-9B30-4562-8022-0EE7F78150EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -198,7 +198,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_region_id"
-              DTS:DTSID="{B53401DD-6484-42FB-8F88-CEED2780688F}"
+              DTS:DTSID="{DD02821C-F364-43E2-8498-1A149B5CD791}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +206,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_area_id"
-              DTS:DTSID="{E269AA1A-BE19-484B-AF58-FBB5A48BFE99}"
+              DTS:DTSID="{B83A43E7-4947-44CB-9B2D-EBEB684D7A88}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -216,7 +216,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_lat"
-              DTS:DTSID="{54607021-16C5-420A-92C0-80C3691766BB}"
+              DTS:DTSID="{635AB7EF-ACB8-47AC-8956-6C7D28395914}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -226,7 +226,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_lon"
-              DTS:DTSID="{A925A907-36AB-42DF-8D90-4580C3A28D69}"
+              DTS:DTSID="{6540442E-F885-4830-918E-4A0159A6D86C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -234,7 +234,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_id"
-              DTS:DTSID="{7B95D942-99A2-4B9E-9AFA-B7F06E5C4724}"
+              DTS:DTSID="{322F3480-2B0E-49C2-B6BB-CCE54E025010}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -244,7 +244,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_lat"
-              DTS:DTSID="{F5349E72-8110-4158-BE59-348155188340}"
+              DTS:DTSID="{B299778E-9543-43A8-9C3D-5A304D355E1F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -254,7 +254,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_lon"
-              DTS:DTSID="{BBF80E5A-A19D-44AA-90C8-AAD6DC2AEFC9}"
+              DTS:DTSID="{7EFB12B3-B288-4057-9DC7-00EB14304FA9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -263,7 +263,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_type"
-              DTS:DTSID="{28DDFA54-3919-4FBF-8C00-79B26B8D4CD6}"
+              DTS:DTSID="{84FE61BE-52AA-424A-8C80-254BDF98BE8C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -271,7 +271,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_id2"
-              DTS:DTSID="{655C33F8-6787-4370-8D70-E863029CCEE2}"
+              DTS:DTSID="{B689D827-8FEB-428C-B158-174002CDF88D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -280,7 +280,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="last_name"
-              DTS:DTSID="{3E7A37F0-4643-406A-8155-829EB6D25283}"
+              DTS:DTSID="{447B9518-1E8A-44E9-A5C1-32A44CC0C3AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -289,7 +289,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="first_name"
-              DTS:DTSID="{767B0A97-13C1-48C1-A98E-18FB2E27A546}"
+              DTS:DTSID="{86C60A0C-24FE-47ED-9C4E-924C2965ED25}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -298,7 +298,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="gender"
-              DTS:DTSID="{EF588C49-3018-4147-892F-BB812DBEC028}"
+              DTS:DTSID="{230EF4B3-64D6-4A79-9FAE-AB75D9496848}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -306,7 +306,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="birth_date"
-              DTS:DTSID="{3C0C0CB7-5041-4C7F-A5C0-7CD3469740F1}"
+              DTS:DTSID="{705A4F3D-6C80-4FB1-A230-CCE567FBCC8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -314,7 +314,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_since_date"
-              DTS:DTSID="{A1485641-C070-49B8-81AF-DC5821923241}"
+              DTS:DTSID="{2CDD05EA-20C7-4D89-89A3-C992E311AFCA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -322,7 +322,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="pri_branch_id"
-              DTS:DTSID="{2698E616-103E-43F3-B157-137F2A9A4FED}"
+              DTS:DTSID="{E6E37B86-E95A-4FF0-B43A-5F98FB688A02}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -332,7 +332,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_pri_branch_dist"
-              DTS:DTSID="{10E9A940-171D-4E54-AFD6-5D716CC71C0E}"
+              DTS:DTSID="{98B54F5F-0FEA-42B2-A3E4-DF878ECA7F5A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -342,7 +342,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_lat"
-              DTS:DTSID="{66E5D79E-A370-4DEB-841A-2180FCE57464}"
+              DTS:DTSID="{BD9FD53B-69F7-43F7-9F2D-DFAAD7DEE529}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -352,7 +352,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_lon"
-              DTS:DTSID="{45EF25AE-01E3-4E89-BC13-6D0DE7406E14}"
+              DTS:DTSID="{BBBD10CA-0DE7-4B44-84C5-92AF47541619}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -360,7 +360,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_rel_id"
-              DTS:DTSID="{3AD81668-4EC9-4BEB-8082-EA860565B527}"
+              DTS:DTSID="{6DE2B42A-AF3D-4502-8510-F7AC0370950C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -368,7 +368,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_id"
-              DTS:DTSID="{A3C19DFD-69DC-4EC4-AC03-264B35604DDE}"
+              DTS:DTSID="{E9C8E652-8661-4317-9907-68DDBF489492}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -378,7 +378,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_lat"
-              DTS:DTSID="{9817047F-C214-4995-81CD-86F26FD56170}"
+              DTS:DTSID="{429E7EDC-4B72-476E-B129-989AB623D413}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -388,7 +388,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_lon"
-              DTS:DTSID="{854A7F1F-FB38-4DBE-AD31-E1F213D0343E}"
+              DTS:DTSID="{0D1B6F24-8549-4856-88F0-F4213C79D1D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -397,7 +397,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_type"
-              DTS:DTSID="{EFC4E067-04A0-4792-8A4C-2CBE2B3B5777}"
+              DTS:DTSID="{1A555631-CF1F-4EBB-A476-584B28ABA5A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -405,7 +405,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="as_of_date"
-              DTS:DTSID="{92E1749F-1D32-4C56-9C55-629366B4B960}"
+              DTS:DTSID="{5927C747-5599-47AD-BADD-77D3DD35BDD3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -413,7 +413,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id3"
-              DTS:DTSID="{14EE77EE-EF52-4BA4-A9C3-07FC55AF4F8A}"
+              DTS:DTSID="{95D441D9-1E5D-4926-99D8-F1F9133782BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -423,7 +423,7 @@
               DTS:DataScale="4"
               DTS:TextQualified="True"
               DTS:ObjectName="cur_bal"
-              DTS:DTSID="{5283F896-9D92-4353-8F3E-21B422699865}"
+              DTS:DTSID="{8C480805-F2BA-451C-841E-64C43526A575}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -4610,7 +4610,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id"
-              DTS:DTSID="{970321FA-F3E5-4EA2-8AC5-592E4656CAFA}"
+              DTS:DTSID="{68CB301B-8D4C-4CF9-893B-43489A606FDA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4618,7 +4618,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_id"
-              DTS:DTSID="{5BFF6516-6748-458F-A7FB-06A706B8BBA5}"
+              DTS:DTSID="{884AD304-3377-492F-B07A-5B5EA20CA43E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4626,7 +4626,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_cust_role_id"
-              DTS:DTSID="{89C610DF-6011-4601-BB08-D4D3CE341489}"
+              DTS:DTSID="{47A163D6-0301-4D82-9953-E18FF4D2FAB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4634,7 +4634,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id2"
-              DTS:DTSID="{E631238B-7305-4052-83AE-043FB441A326}"
+              DTS:DTSID="{4EF82AC9-C94A-4A77-8FEF-2E7BE41F0D13}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4642,7 +4642,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="prod_id"
-              DTS:DTSID="{8619E5E9-1535-4600-ADB3-CF59A9B8D8E6}"
+              DTS:DTSID="{4B63CF39-4E77-42B9-9F68-06E83805F0CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4650,7 +4650,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="open_date"
-              DTS:DTSID="{3DD801EA-E359-4E75-AD8F-E6564BD27DF0}"
+              DTS:DTSID="{250CA3AB-44D4-42B7-B97F-7851EF8E16E4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4658,7 +4658,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="close_date"
-              DTS:DTSID="{53FFDC5E-423D-4463-9A3B-9B4F07CF21D6}"
+              DTS:DTSID="{BA83100A-E804-4499-BF84-1AF0665C2F8A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4667,7 +4667,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="open_close_code"
-              DTS:DTSID="{63B7EF5F-939B-4FB3-B56B-EA99175ECC4D}"
+              DTS:DTSID="{1E247242-49F0-4054-B9EF-EA3AFD2F83F3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4675,7 +4675,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="branch_id"
-              DTS:DTSID="{AA0F7F7C-4708-4738-8FFB-BA5268A0F264}"
+              DTS:DTSID="{D4CFCE8D-2A2C-453E-809E-3332CC972F24}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4683,7 +4683,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_rel_id"
-              DTS:DTSID="{99FC2FFB-3B6D-4496-AB24-061D7F80D53E}"
+              DTS:DTSID="{47FDD59F-FBA8-452E-8615-F295A68D54D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4691,7 +4691,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="pri_cust_id"
-              DTS:DTSID="{B971F5CD-D8B2-4A52-BAD7-94190423B0E9}"
+              DTS:DTSID="{F8B30A5D-37E6-46F3-B879-C39516844E00}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4701,7 +4701,7 @@
               DTS:DataScale="4"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amt"
-              DTS:DTSID="{244DDBE9-ADE1-46AF-B588-226A59E3D0EE}"
+              DTS:DTSID="{8F4D8228-EA12-4E0E-AAC2-84BC343F248B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4709,7 +4709,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_id"
-              DTS:DTSID="{EFDEF0B9-6D4B-45DB-87F7-F836A602964D}"
+              DTS:DTSID="{04EAFD1D-90B8-45F4-963E-C5FED1E33C12}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4718,7 +4718,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_code"
-              DTS:DTSID="{0615A037-A495-43C7-B48F-7CB73A822106}"
+              DTS:DTSID="{9FBE9C38-FB48-4871-ADEE-9FC31CD2E595}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4727,7 +4727,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_desc"
-              DTS:DTSID="{A8BA2501-2090-4AB5-BF88-10447ABC7452}"
+              DTS:DTSID="{73427DFF-E7BD-4E75-974E-175B87D05782}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4735,7 +4735,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_region_id"
-              DTS:DTSID="{3C9E23A6-B4DD-46FB-B1BE-C3758137D194}"
+              DTS:DTSID="{A5568960-08BD-4A36-9D2D-387F6BFB3857}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4743,7 +4743,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_area_id"
-              DTS:DTSID="{73240398-BCB4-4B55-84B2-737F98FCD692}"
+              DTS:DTSID="{6B59BE59-07FC-47E8-A707-584D6CD6C63E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4753,7 +4753,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_lat"
-              DTS:DTSID="{0346E269-AF94-4F08-9789-2E50457FED10}"
+              DTS:DTSID="{90888C59-5B6B-4C4A-8D9B-7D5776B23E61}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4763,7 +4763,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_lon"
-              DTS:DTSID="{AF5C8CDB-1514-46FE-AF2B-81315AA19C58}"
+              DTS:DTSID="{2DAD5B4D-3514-44C8-9E2B-016F4883192B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4771,7 +4771,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_id"
-              DTS:DTSID="{B931326B-A372-4F43-BD0E-78533AA66D78}"
+              DTS:DTSID="{F9FB6B78-FCA2-4483-A2BB-E3EC62FE15E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4781,7 +4781,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_lat"
-              DTS:DTSID="{30680E33-90DB-48D5-A13B-44F0341E366F}"
+              DTS:DTSID="{D5A33077-F840-43A8-A9CC-74FF6FDF6969}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4791,7 +4791,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_lon"
-              DTS:DTSID="{33AA8D32-DBFC-4967-A190-83DBE363B7ED}"
+              DTS:DTSID="{1A6811D3-DA19-47D6-9CCD-0EC0F7F2914C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4800,7 +4800,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_branch_add_type"
-              DTS:DTSID="{10AAECE3-8473-41FD-A560-45823C308230}"
+              DTS:DTSID="{26287442-3933-4AFD-825A-03EC61DC5D23}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4808,7 +4808,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_id2"
-              DTS:DTSID="{1FD49DA4-7076-4E2C-A063-872247C93B32}"
+              DTS:DTSID="{DCCE7A11-BA40-4397-9232-1648B02555C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4817,7 +4817,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="last_name"
-              DTS:DTSID="{4F44BEA6-0726-4EA8-953B-2F100D72E1AF}"
+              DTS:DTSID="{D8B37F94-67AC-466E-B9BA-B6E1F0B06F87}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4826,7 +4826,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="first_name"
-              DTS:DTSID="{72663F04-2006-44BC-B082-B2CBD995FF64}"
+              DTS:DTSID="{1B9D3603-B17B-449B-8F47-DACA2F1C7551}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4835,7 +4835,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="gender"
-              DTS:DTSID="{C16A638E-C896-4E1A-8C9C-FEE45060940F}"
+              DTS:DTSID="{E45B6606-FDD2-40B9-AC25-02185154768A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4843,7 +4843,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="birth_date"
-              DTS:DTSID="{0A059C92-9933-49CA-BD50-6BC4407B2AEE}"
+              DTS:DTSID="{98664187-AB7B-47A2-A745-45DC7C1C2E92}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4851,7 +4851,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_since_date"
-              DTS:DTSID="{D3D821C9-A855-479D-A896-340FE54B2E72}"
+              DTS:DTSID="{53426DCE-AE5A-4FBE-9F7E-8A64708919E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4859,7 +4859,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="pri_branch_id"
-              DTS:DTSID="{62CEAB9A-A88F-4B8A-882F-95CF288EDAC9}"
+              DTS:DTSID="{645E0C46-89C6-4959-865A-BACA7499B154}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4869,7 +4869,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_pri_branch_dist"
-              DTS:DTSID="{E6CE5EF2-2E69-44C2-9987-2D3ED7246538}"
+              DTS:DTSID="{A0C86EAB-542A-4EFA-91A0-845CF7C03534}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4879,7 +4879,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_lat"
-              DTS:DTSID="{CE62D752-2D57-411A-A484-1614CCDA1182}"
+              DTS:DTSID="{3BA01F60-9270-4D59-AA7C-009178F7C3BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4889,7 +4889,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_lon"
-              DTS:DTSID="{E8A9D1AE-EDF7-4D97-A04D-EE93D5B28C0A}"
+              DTS:DTSID="{3C07E8B8-ED39-47C4-86CA-4F7A79781D7F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4897,7 +4897,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_rel_id"
-              DTS:DTSID="{94E67093-AF92-4FEF-BE02-99C59DA48E8B}"
+              DTS:DTSID="{81C6B348-2579-4694-B9AB-2C6ED9D7F972}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4905,7 +4905,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_id"
-              DTS:DTSID="{ED11980B-A3D6-401B-B3A7-99018BFDD163}"
+              DTS:DTSID="{021F6547-C476-4799-B7C3-2D116CAE2A3D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4915,7 +4915,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_lat"
-              DTS:DTSID="{D50D41C1-1EC6-4408-A896-DA2B245F2101}"
+              DTS:DTSID="{28882ABD-83CF-4950-9F60-55FF4B728B35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4925,7 +4925,7 @@
               DTS:DataScale="12"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_lon"
-              DTS:DTSID="{4373678D-EAD7-4C9A-B261-F41EDA87CA3E}"
+              DTS:DTSID="{2BF7C125-43CB-41A0-B205-5ED8843C90BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4934,7 +4934,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cust_add_type"
-              DTS:DTSID="{675E396B-332B-4A59-8882-0402FA77BC1B}"
+              DTS:DTSID="{2004D991-045E-43CD-B95C-418974CEC74F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4942,7 +4942,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="as_of_date"
-              DTS:DTSID="{6604586B-7353-46C9-892C-D763BBEE738A}"
+              DTS:DTSID="{608E1136-EF78-4F7E-8136-BB9BDC2155C3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4950,7 +4950,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id3"
-              DTS:DTSID="{88EB9738-476B-4D23-9B7E-9E0D9462DCF8}"
+              DTS:DTSID="{B0195D14-3DFC-4C9D-9452-562E53F7F050}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4960,7 +4960,7 @@
               DTS:DataScale="4"
               DTS:TextQualified="True"
               DTS:ObjectName="cur_bal"
-              DTS:DTSID="{8FFDA7B6-DC0A-4D13-81E2-B99254822E83}"
+              DTS:DTSID="{28359562-A78F-4CEC-B750-3FCA439CBEC0}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -4990,7 +4990,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="branch_id"
-              DTS:DTSID="{837B2F63-C313-4523-86B9-39E45B386386}"
+              DTS:DTSID="{0D642CAD-FDA4-422E-8996-831A5B6C14C2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -4998,7 +4998,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="acct_id"
-              DTS:DTSID="{F774D5BB-2F9A-45D4-A6B8-7B7B602DD454}"
+              DTS:DTSID="{4991695D-E8A8-4A09-A441-66933341C43D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5006,7 +5006,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_date"
-              DTS:DTSID="{5B668342-FF73-44B1-92CA-F360B1E9F593}"
+              DTS:DTSID="{FB1A1236-92F6-4387-B34A-509BD3193A04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5015,7 +5015,7 @@
               DTS:DataScale="7"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_time"
-              DTS:DTSID="{88F46C38-F5B9-47F4-86B0-82CF96E06B88}"
+              DTS:DTSID="{705BC23B-F96A-4D60-8E0A-0D061C882C93}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5023,7 +5023,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_type_id"
-              DTS:DTSID="{64DF6AE8-E714-4DE4-8FD5-A22B2AF51E80}"
+              DTS:DTSID="{49A0864E-ED71-4C70-90E8-FF30D95C7BD2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5032,7 +5032,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_type_code"
-              DTS:DTSID="{06370265-CBEF-4D91-A151-7DB7AE3942DC}"
+              DTS:DTSID="{4B192CEA-113A-4BB3-83DF-A7C4DED88D12}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5041,7 +5041,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_type_desc"
-              DTS:DTSID="{A5EA4EAE-F0F2-43A0-907C-62CCCB4C59E6}"
+              DTS:DTSID="{2AB6E770-4FC8-4341-9977-BD81FFF885E4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5051,7 +5051,7 @@
               DTS:DataScale="3"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_fee_prct"
-              DTS:DTSID="{63767E6C-61AE-4C6D-B2CB-E3A95FA92E77}"
+              DTS:DTSID="{76027BD8-2942-4C76-9238-73FCEAEC1F65}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5060,7 +5060,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cur_cust_req_ind"
-              DTS:DTSID="{1AD3D1E1-1D6D-4FD3-85BE-C86EBFA18422}"
+              DTS:DTSID="{656DE659-BA63-4C25-9635-44520DD7D7FC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5068,7 +5068,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_amt"
-              DTS:DTSID="{D1EE8D5A-5679-4F2B-940B-0A9DF8556CE4}"
+              DTS:DTSID="{1DFA536B-F442-4209-AD1E-7532656DBA04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5078,7 +5078,7 @@
               DTS:DataScale="3"
               DTS:TextQualified="True"
               DTS:ObjectName="tran_fee_amt"
-              DTS:DTSID="{EA8A7662-36D8-4966-B67C-E51DB4529D7C}"
+              DTS:DTSID="{C089F826-D222-4263-8BB7-16AF7F92E7E1}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -5210,7 +5210,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="v_load_method">
       <DTS:VariableValue
-        DTS:DataType="8">load</DTS:VariableValue>
+        DTS:DataType="8">loop</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -5235,7 +5235,7 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="MsgBox check variable"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -7720,6 +7720,595 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                   version="1">
                   <components>
                     <component
+                      refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1"
+                      componentClassID="Microsoft.OLEDBDestination"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="dbo_stg_p1"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[stg_p1]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[DFNB3]"
+                          connectionManagerRefId="Package.ConnectionManagers[DFNB3]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_id]"
+                              cachedDataType="i4"
+                              cachedName="acct_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_id]"
+                              cachedDataType="i2"
+                              cachedName="cust_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_cust_role_id]"
+                              cachedDataType="i2"
+                              cachedName="acct_cust_role_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_cust_role_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_cust_role_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_id2]"
+                              cachedDataType="i4"
+                              cachedName="acct_id2"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id2]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id2]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[prod_id]"
+                              cachedDataType="i2"
+                              cachedName="prod_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[prod_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[prod_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[open_date]"
+                              cachedDataType="date"
+                              cachedName="open_date"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[open_date]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[open_date]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[close_date]"
+                              cachedDataType="date"
+                              cachedName="close_date"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[close_date]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[close_date]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[open_close_code]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="1"
+                              cachedName="open_close_code"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[open_close_code]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[open_close_code]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[branch_id]"
+                              cachedDataType="i2"
+                              cachedName="branch_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[branch_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[branch_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_rel_id]"
+                              cachedDataType="i2"
+                              cachedName="acct_rel_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_rel_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_rel_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[pri_cust_id]"
+                              cachedDataType="i2"
+                              cachedName="pri_cust_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[pri_cust_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[pri_cust_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[loan_amt]"
+                              cachedDataType="numeric"
+                              cachedName="loan_amt"
+                              cachedPrecision="20"
+                              cachedScale="4"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[loan_amt]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[loan_amt]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_id]"
+                              cachedDataType="i2"
+                              cachedName="acct_branch_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_code]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="5"
+                              cachedName="acct_branch_code"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_code]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_code]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_desc]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="100"
+                              cachedName="acct_branch_desc"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_desc]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_desc]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_region_id]"
+                              cachedDataType="i4"
+                              cachedName="acct_region_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_region_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_region_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_area_id]"
+                              cachedDataType="i4"
+                              cachedName="acct_area_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_area_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_area_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_lat]"
+                              cachedDataType="numeric"
+                              cachedName="acct_branch_lat"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lat]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_lat]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_lon]"
+                              cachedDataType="numeric"
+                              cachedName="acct_branch_lon"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lon]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_lon]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_add_id]"
+                              cachedDataType="i4"
+                              cachedName="acct_branch_add_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_add_lat]"
+                              cachedDataType="numeric"
+                              cachedName="acct_branch_add_lat"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lat]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_lat]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_add_lon]"
+                              cachedDataType="numeric"
+                              cachedName="acct_branch_add_lon"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lon]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_lon]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_branch_add_type]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="1"
+                              cachedName="acct_branch_add_type"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_type]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_type]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_id2]"
+                              cachedDataType="i2"
+                              cachedName="cust_id2"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_id2]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_id2]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[last_name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="100"
+                              cachedName="last_name"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[last_name]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[last_name]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[first_name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="100"
+                              cachedName="first_name"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[first_name]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[first_name]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[gender]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="1"
+                              cachedName="gender"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[gender]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[gender]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[birth_date]"
+                              cachedDataType="date"
+                              cachedName="birth_date"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[birth_date]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[birth_date]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_since_date]"
+                              cachedDataType="date"
+                              cachedName="cust_since_date"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_since_date]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_since_date]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[pri_branch_id]"
+                              cachedDataType="i2"
+                              cachedName="pri_branch_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[pri_branch_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[pri_branch_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_pri_branch_dist]"
+                              cachedDataType="numeric"
+                              cachedName="cust_pri_branch_dist"
+                              cachedPrecision="7"
+                              cachedScale="2"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_pri_branch_dist]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_pri_branch_dist]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_lat]"
+                              cachedDataType="numeric"
+                              cachedName="cust_lat"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_lat]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_lat]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_lon]"
+                              cachedDataType="numeric"
+                              cachedName="cust_lon"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_lon]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_lon]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_rel_id]"
+                              cachedDataType="i2"
+                              cachedName="cust_rel_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_rel_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_rel_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_add_id]"
+                              cachedDataType="i4"
+                              cachedName="cust_add_id"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_id]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_id]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_add_lat]"
+                              cachedDataType="numeric"
+                              cachedName="cust_add_lat"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lat]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_lat]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_add_lon]"
+                              cachedDataType="numeric"
+                              cachedName="cust_add_lon"
+                              cachedPrecision="16"
+                              cachedScale="12"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lon]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_lon]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cust_add_type]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="1"
+                              cachedName="cust_add_type"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_type]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_type]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[as_of_date]"
+                              cachedDataType="date"
+                              cachedName="as_of_date"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[as_of_date]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[as_of_date]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[acct_id3]"
+                              cachedDataType="i4"
+                              cachedName="acct_id3"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id3]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id3]" />
+                            <inputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].Columns[cur_bal]"
+                              cachedDataType="numeric"
+                              cachedName="cur_bal"
+                              cachedPrecision="20"
+                              cachedScale="4"
+                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cur_bal]"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cur_bal]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id]"
+                              dataType="i4"
+                              name="acct_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_id]"
+                              dataType="i2"
+                              name="cust_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_cust_role_id]"
+                              dataType="i2"
+                              name="acct_cust_role_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id2]"
+                              dataType="i4"
+                              name="acct_id2" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[prod_id]"
+                              dataType="i2"
+                              name="prod_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[open_date]"
+                              dataType="dbDate"
+                              name="open_date" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[close_date]"
+                              dataType="dbDate"
+                              name="close_date" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[open_close_code]"
+                              codePage="1252"
+                              dataType="str"
+                              length="1"
+                              name="open_close_code" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[branch_id]"
+                              dataType="i2"
+                              name="branch_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_rel_id]"
+                              dataType="i2"
+                              name="acct_rel_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[pri_cust_id]"
+                              dataType="i2"
+                              name="pri_cust_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[loan_amt]"
+                              dataType="numeric"
+                              name="loan_amt"
+                              precision="20"
+                              scale="4" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_id]"
+                              dataType="i2"
+                              name="acct_branch_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_code]"
+                              codePage="1252"
+                              dataType="str"
+                              length="5"
+                              name="acct_branch_code" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_desc]"
+                              codePage="1252"
+                              dataType="str"
+                              length="100"
+                              name="acct_branch_desc" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_region_id]"
+                              dataType="i4"
+                              name="acct_region_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_area_id]"
+                              dataType="i4"
+                              name="acct_area_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lat]"
+                              dataType="numeric"
+                              name="acct_branch_lat"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lon]"
+                              dataType="numeric"
+                              name="acct_branch_lon"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_id]"
+                              dataType="i4"
+                              name="acct_branch_add_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lat]"
+                              dataType="numeric"
+                              name="acct_branch_add_lat"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lon]"
+                              dataType="numeric"
+                              name="acct_branch_add_lon"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_type]"
+                              codePage="1252"
+                              dataType="str"
+                              length="1"
+                              name="acct_branch_add_type" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_id2]"
+                              dataType="i2"
+                              name="cust_id2" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[last_name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="100"
+                              name="last_name" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[first_name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="100"
+                              name="first_name" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[gender]"
+                              codePage="1252"
+                              dataType="str"
+                              length="1"
+                              name="gender" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[birth_date]"
+                              dataType="dbDate"
+                              name="birth_date" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_since_date]"
+                              dataType="dbDate"
+                              name="cust_since_date" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[pri_branch_id]"
+                              dataType="i2"
+                              name="pri_branch_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_pri_branch_dist]"
+                              dataType="numeric"
+                              name="cust_pri_branch_dist"
+                              precision="7"
+                              scale="2" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_lat]"
+                              dataType="numeric"
+                              name="cust_lat"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_lon]"
+                              dataType="numeric"
+                              name="cust_lon"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_rel_id]"
+                              dataType="i2"
+                              name="cust_rel_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_id]"
+                              dataType="i4"
+                              name="cust_add_id" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lat]"
+                              dataType="numeric"
+                              name="cust_add_lat"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lon]"
+                              dataType="numeric"
+                              name="cust_add_lon"
+                              precision="16"
+                              scale="12" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_type]"
+                              codePage="1252"
+                              dataType="str"
+                              length="1"
+                              name="cust_add_type" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[as_of_date]"
+                              dataType="dbDate"
+                              name="as_of_date" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[acct_id3]"
+                              dataType="i4"
+                              name="acct_id3" />
+                            <externalMetadataColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input].ExternalColumns[cur_bal]"
+                              dataType="numeric"
+                              name="cur_bal"
+                              precision="20"
+                              scale="4" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
                       refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2"
                       componentClassID="Microsoft.OLEDBDestination"
                       contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -7947,595 +8536,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                               refId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                               dataType="i4"
                               lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                              name="ErrorColumn"
-                              specialFlags="2" />
-                          </outputColumns>
-                          <externalMetadataColumns />
-                        </output>
-                      </outputs>
-                    </component>
-                    <component
-                      refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination"
-                      componentClassID="Microsoft.OLEDBDestination"
-                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-                      description="OLE DB Destination"
-                      name="OLE DB Destination"
-                      usesDispositions="true"
-                      version="4">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                          name="CommandTimeout">0</property>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the name of the database object used to open a rowset."
-                          name="OpenRowset">[dbo].[stg_p1]</property>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the variable that contains the name of the database object used to open a rowset."
-                          name="OpenRowsetVariable"></property>
-                        <property
-                          dataType="System.String"
-                          description="The SQL command to be executed."
-                          name="SqlCommand"
-                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the column code page to use when code page information is unavailable from the data source."
-                          name="DefaultCodePage">1252</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Forces the use of the DefaultCodePage property value when describing character data."
-                          name="AlwaysUseDefaultCodePage">false</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the mode used to access the database."
-                          name="AccessMode"
-                          typeConverter="AccessMode">3</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                          name="FastLoadKeepIdentity">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                          name="FastLoadKeepNulls">false</property>
-                        <property
-                          dataType="System.String"
-                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                          name="FastLoadMaxInsertCommitSize">2147483647</property>
-                      </properties>
-                      <connections>
-                        <connection
-                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Connections[OleDbConnection]"
-                          connectionManagerID="Package.ConnectionManagers[DFNB3]"
-                          connectionManagerRefId="Package.ConnectionManagers[DFNB3]"
-                          description="The OLE DB runtime connection used to access the database."
-                          name="OleDbConnection" />
-                      </connections>
-                      <inputs>
-                        <input
-                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input]"
-                          errorOrTruncationOperation="Insert"
-                          errorRowDisposition="FailComponent"
-                          hasSideEffects="true"
-                          name="OLE DB Destination Input">
-                          <inputColumns>
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_id]"
-                              cachedDataType="i4"
-                              cachedName="acct_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_id]"
-                              cachedDataType="i2"
-                              cachedName="cust_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_cust_role_id]"
-                              cachedDataType="i2"
-                              cachedName="acct_cust_role_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_cust_role_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_cust_role_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_id2]"
-                              cachedDataType="i4"
-                              cachedName="acct_id2"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id2]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id2]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[prod_id]"
-                              cachedDataType="i2"
-                              cachedName="prod_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[prod_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[prod_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[open_date]"
-                              cachedDataType="date"
-                              cachedName="open_date"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[open_date]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[open_date]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[close_date]"
-                              cachedDataType="date"
-                              cachedName="close_date"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[close_date]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[close_date]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[open_close_code]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="1"
-                              cachedName="open_close_code"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[open_close_code]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[open_close_code]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[branch_id]"
-                              cachedDataType="i2"
-                              cachedName="branch_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[branch_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[branch_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_rel_id]"
-                              cachedDataType="i2"
-                              cachedName="acct_rel_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_rel_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_rel_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[pri_cust_id]"
-                              cachedDataType="i2"
-                              cachedName="pri_cust_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[pri_cust_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[pri_cust_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[loan_amt]"
-                              cachedDataType="numeric"
-                              cachedName="loan_amt"
-                              cachedPrecision="20"
-                              cachedScale="4"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[loan_amt]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[loan_amt]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_id]"
-                              cachedDataType="i2"
-                              cachedName="acct_branch_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_code]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="5"
-                              cachedName="acct_branch_code"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_code]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_code]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_desc]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="100"
-                              cachedName="acct_branch_desc"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_desc]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_desc]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_region_id]"
-                              cachedDataType="i4"
-                              cachedName="acct_region_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_region_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_region_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_area_id]"
-                              cachedDataType="i4"
-                              cachedName="acct_area_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_area_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_area_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_lat]"
-                              cachedDataType="numeric"
-                              cachedName="acct_branch_lat"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lat]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_lat]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_lon]"
-                              cachedDataType="numeric"
-                              cachedName="acct_branch_lon"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lon]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_lon]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_add_id]"
-                              cachedDataType="i4"
-                              cachedName="acct_branch_add_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_add_lat]"
-                              cachedDataType="numeric"
-                              cachedName="acct_branch_add_lat"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lat]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_lat]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_add_lon]"
-                              cachedDataType="numeric"
-                              cachedName="acct_branch_add_lon"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lon]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_lon]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_branch_add_type]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="1"
-                              cachedName="acct_branch_add_type"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_type]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_branch_add_type]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_id2]"
-                              cachedDataType="i2"
-                              cachedName="cust_id2"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_id2]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_id2]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[last_name]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="100"
-                              cachedName="last_name"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[last_name]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[last_name]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[first_name]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="100"
-                              cachedName="first_name"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[first_name]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[first_name]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[gender]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="1"
-                              cachedName="gender"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[gender]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[gender]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[birth_date]"
-                              cachedDataType="date"
-                              cachedName="birth_date"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birth_date]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[birth_date]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_since_date]"
-                              cachedDataType="date"
-                              cachedName="cust_since_date"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_since_date]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_since_date]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[pri_branch_id]"
-                              cachedDataType="i2"
-                              cachedName="pri_branch_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[pri_branch_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[pri_branch_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_pri_branch_dist]"
-                              cachedDataType="numeric"
-                              cachedName="cust_pri_branch_dist"
-                              cachedPrecision="7"
-                              cachedScale="2"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_pri_branch_dist]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_pri_branch_dist]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_lat]"
-                              cachedDataType="numeric"
-                              cachedName="cust_lat"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_lat]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_lat]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_lon]"
-                              cachedDataType="numeric"
-                              cachedName="cust_lon"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_lon]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_lon]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_rel_id]"
-                              cachedDataType="i2"
-                              cachedName="cust_rel_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_rel_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_rel_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_add_id]"
-                              cachedDataType="i4"
-                              cachedName="cust_add_id"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_id]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_id]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_add_lat]"
-                              cachedDataType="numeric"
-                              cachedName="cust_add_lat"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lat]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_lat]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_add_lon]"
-                              cachedDataType="numeric"
-                              cachedName="cust_add_lon"
-                              cachedPrecision="16"
-                              cachedScale="12"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lon]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_lon]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cust_add_type]"
-                              cachedCodepage="1252"
-                              cachedDataType="str"
-                              cachedLength="1"
-                              cachedName="cust_add_type"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_type]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cust_add_type]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[as_of_date]"
-                              cachedDataType="date"
-                              cachedName="as_of_date"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[as_of_date]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[as_of_date]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[acct_id3]"
-                              cachedDataType="i4"
-                              cachedName="acct_id3"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id3]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[acct_id3]" />
-                            <inputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[cur_bal]"
-                              cachedDataType="numeric"
-                              cachedName="cur_bal"
-                              cachedPrecision="20"
-                              cachedScale="4"
-                              externalMetadataColumnId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cur_bal]"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1].Columns[cur_bal]" />
-                          </inputColumns>
-                          <externalMetadataColumns
-                            isUsed="True">
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id]"
-                              dataType="i4"
-                              name="acct_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_id]"
-                              dataType="i2"
-                              name="cust_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_cust_role_id]"
-                              dataType="i2"
-                              name="acct_cust_role_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id2]"
-                              dataType="i4"
-                              name="acct_id2" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[prod_id]"
-                              dataType="i2"
-                              name="prod_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[open_date]"
-                              dataType="dbDate"
-                              name="open_date" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[close_date]"
-                              dataType="dbDate"
-                              name="close_date" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[open_close_code]"
-                              codePage="1252"
-                              dataType="str"
-                              length="1"
-                              name="open_close_code" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[branch_id]"
-                              dataType="i2"
-                              name="branch_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_rel_id]"
-                              dataType="i2"
-                              name="acct_rel_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[pri_cust_id]"
-                              dataType="i2"
-                              name="pri_cust_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[loan_amt]"
-                              dataType="numeric"
-                              name="loan_amt"
-                              precision="20"
-                              scale="4" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_id]"
-                              dataType="i2"
-                              name="acct_branch_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_code]"
-                              codePage="1252"
-                              dataType="str"
-                              length="5"
-                              name="acct_branch_code" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_desc]"
-                              codePage="1252"
-                              dataType="str"
-                              length="100"
-                              name="acct_branch_desc" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_region_id]"
-                              dataType="i4"
-                              name="acct_region_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_area_id]"
-                              dataType="i4"
-                              name="acct_area_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lat]"
-                              dataType="numeric"
-                              name="acct_branch_lat"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_lon]"
-                              dataType="numeric"
-                              name="acct_branch_lon"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_id]"
-                              dataType="i4"
-                              name="acct_branch_add_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lat]"
-                              dataType="numeric"
-                              name="acct_branch_add_lat"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_lon]"
-                              dataType="numeric"
-                              name="acct_branch_add_lon"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_branch_add_type]"
-                              codePage="1252"
-                              dataType="str"
-                              length="1"
-                              name="acct_branch_add_type" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_id2]"
-                              dataType="i2"
-                              name="cust_id2" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[last_name]"
-                              codePage="1252"
-                              dataType="str"
-                              length="100"
-                              name="last_name" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[first_name]"
-                              codePage="1252"
-                              dataType="str"
-                              length="100"
-                              name="first_name" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[gender]"
-                              codePage="1252"
-                              dataType="str"
-                              length="1"
-                              name="gender" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birth_date]"
-                              dataType="dbDate"
-                              name="birth_date" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_since_date]"
-                              dataType="dbDate"
-                              name="cust_since_date" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[pri_branch_id]"
-                              dataType="i2"
-                              name="pri_branch_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_pri_branch_dist]"
-                              dataType="numeric"
-                              name="cust_pri_branch_dist"
-                              precision="7"
-                              scale="2" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_lat]"
-                              dataType="numeric"
-                              name="cust_lat"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_lon]"
-                              dataType="numeric"
-                              name="cust_lon"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_rel_id]"
-                              dataType="i2"
-                              name="cust_rel_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_id]"
-                              dataType="i4"
-                              name="cust_add_id" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lat]"
-                              dataType="numeric"
-                              name="cust_add_lat"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_lon]"
-                              dataType="numeric"
-                              name="cust_add_lon"
-                              precision="16"
-                              scale="12" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cust_add_type]"
-                              codePage="1252"
-                              dataType="str"
-                              length="1"
-                              name="cust_add_type" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[as_of_date]"
-                              dataType="dbDate"
-                              name="as_of_date" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[acct_id3]"
-                              dataType="i4"
-                              name="acct_id3" />
-                            <externalMetadataColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[cur_bal]"
-                              dataType="numeric"
-                              name="cur_bal"
-                              precision="20"
-                              scale="4" />
-                          </externalMetadataColumns>
-                        </input>
-                      </inputs>
-                      <outputs>
-                        <output
-                          refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
-                          exclusionGroup="1"
-                          isErrorOut="true"
-                          name="OLE DB Destination Error Output"
-                          synchronousInputId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input]">
-                          <outputColumns>
-                            <outputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                              dataType="i4"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                              name="ErrorCode"
-                              specialFlags="1" />
-                            <outputColumn
-                              refId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                              dataType="i4"
-                              lineageId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                               name="ErrorColumn"
                               specialFlags="2" />
                           </outputColumns>
@@ -29679,7 +29679,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                       startId="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b12_txt.Outputs[Flat File Source Output]" />
                     <path
                       refId="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Union All Output 1]"
-                      endId="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                      endId="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1.Inputs[OLE DB Destination Input]"
                       name="Union All Output 1"
                       startId="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All.Outputs[Union All Output 1]" />
                   </paths>
@@ -29695,7 +29695,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               DTS:LocaleID="-1"
               DTS:ObjectName="Truncate data"
               DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-              DTS:ThreadHint="1">
+              DTS:ThreadHint="0">
               <DTS:Variables />
               <DTS:ObjectData>
                 <SQLTask:SqlTaskData
@@ -29738,7 +29738,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL LogPackageEnd"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -29774,7 +29774,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL LogPackageStart"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -30282,6 +30282,75 @@ Partial Public Class ScriptMain
 
 End Class]]></ProjectItem>
               <ProjectItem
+                Name="My Project\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)" GeneratedClassNamespace="$safeprojectname" GeneratedClassName="MySettings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+              <ProjectItem
+                Name="My Project\Settings.Designer.vb"
+                Encoding="UTF8"><![CDATA['------------------------------------------------------------------------------
+' <autogenerated>
+'     This code was generated by a tool.
+'
+'     Changes to this file may cause incorrect behavior and will be lost if
+'     the code is regenerated.
+' </autogenerated>
+'------------------------------------------------------------------------------
+
+Option Strict Off
+Option Explicit On
+
+
+
+Partial Friend NotInheritable Class MySettings
+    Inherits System.Configuration.ApplicationSettingsBase
+
+    Private Shared m_Value As MySettings
+
+    Private Shared m_SyncObject As Object = New Object
+
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Public Shared ReadOnly Property Value() As MySettings
+        Get
+            If (MySettings.m_Value Is Nothing) Then
+                System.Threading.Monitor.Enter(MySettings.m_SyncObject)
+                If (MySettings.m_Value Is Nothing) Then
+                    Try
+                        MySettings.m_Value = New MySettings
+                    Finally
+                        System.Threading.Monitor.Exit(MySettings.m_SyncObject)
+                    End Try
+                End If
+            End If
+            Return MySettings.m_Value
+        End Get
+    End Property
+End Class]]></ProjectItem>
+              <ProjectItem
+                Name="Project"
+                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_d1ae001737b34629aec176e434cf5c25</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_d1ae001737b34629aec176e434cf5c25</msb:DisplayName>
+    <msb:ProjectId>{03EC7F75-8528-4562-B46E-026BFF8344B5}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_d1ae001737b34629aec176e434cf5c25.vbproj" />
+    <msb:File Include="My Project\AssemblyInfo.vb" />
+    <msb:File Include="ScriptMain.vb" />
+    <msb:File Include="My Project\Resources.resx" />
+    <msb:File Include="My Project\Resources.Designer.vb" />
+    <msb:File Include="My Project\Settings.settings" />
+    <msb:File Include="My Project\Settings.Designer.vb" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+              <ProjectItem
                 Name="ST_d1ae001737b34629aec176e434cf5c25.vbproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -30381,75 +30450,6 @@ End Class]]></ProjectItem>
     </VisualStudio>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
-              <ProjectItem
-                Name="My Project\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)" GeneratedClassNamespace="$safeprojectname" GeneratedClassName="MySettings">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-              <ProjectItem
-                Name="My Project\Settings.Designer.vb"
-                Encoding="UTF8"><![CDATA['------------------------------------------------------------------------------
-' <autogenerated>
-'     This code was generated by a tool.
-'
-'     Changes to this file may cause incorrect behavior and will be lost if
-'     the code is regenerated.
-' </autogenerated>
-'------------------------------------------------------------------------------
-
-Option Strict Off
-Option Explicit On
-
-
-
-Partial Friend NotInheritable Class MySettings
-    Inherits System.Configuration.ApplicationSettingsBase
-
-    Private Shared m_Value As MySettings
-
-    Private Shared m_SyncObject As Object = New Object
-
-    <System.Diagnostics.DebuggerNonUserCode()> _
-    Public Shared ReadOnly Property Value() As MySettings
-        Get
-            If (MySettings.m_Value Is Nothing) Then
-                System.Threading.Monitor.Enter(MySettings.m_SyncObject)
-                If (MySettings.m_Value Is Nothing) Then
-                    Try
-                        MySettings.m_Value = New MySettings
-                    Finally
-                        System.Threading.Monitor.Exit(MySettings.m_SyncObject)
-                    End Try
-                End If
-            End If
-            Return MySettings.m_Value
-        End Get
-    End Property
-End Class]]></ProjectItem>
-              <ProjectItem
-                Name="Project"
-                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_d1ae001737b34629aec176e434cf5c25</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_d1ae001737b34629aec176e434cf5c25</msb:DisplayName>
-    <msb:ProjectId>{03EC7F75-8528-4562-B46E-026BFF8344B5}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_d1ae001737b34629aec176e434cf5c25.vbproj" />
-    <msb:File Include="My Project\AssemblyInfo.vb" />
-    <msb:File Include="ScriptMain.vb" />
-    <msb:File Include="My Project\Resources.resx" />
-    <msb:File Include="My Project\Resources.Designer.vb" />
-    <msb:File Include="My Project\Settings.settings" />
-    <msb:File Include="My Project\Settings.Designer.vb" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
               <ProjectItem
                 Name="My Project\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -30859,23 +30859,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <AnnotationLayout
-          Text="/*****************************************************************************************************************&#xA;NAME:      LoadDFNB3.dtsx&#xA;PURPOSE: Load the DFNB3 Data Warehouse &#xA;&#xA;MODIFICATION LOG:&#xA;Ver      Date        Author           Description&#xA;-------  ----------  ---------------  ------------------------------------------------------------------------&#xA;1.0      26/03/2020  XLOPEZ         1. Build this package for LDSBC IT 243&#xA;&#xA;&#xA;&#xA;RUNTIME: &#xA;approx 5 sec&#xA;&#xA;NOTES:  &#xA;&#xA;&#xA;Loads configuration managers for common configuration managers used in template package&#xA;&#xA;Connect strings are loaded with passwords to allow for automation of SSIS ETL based packages&#xA; &#xA;&#xA;Example usage...&#xA;&#xA;EXEC dbo.usp_LoadSSISConfigurations;&#xA;&#xA;SELECT c.*&#xA;  FROM dbo.[SSIS Configurations] as c;&#xA;         &#xA;******************************************************************************************************************/&#xA;"
+          Text="/*****************************************************************************************************************&#xA;NAME:      LoadDFNB3.dtsx&#xA;PURPOSE: Load the DFNB3 Data Warehouse &#xA;&#xA;MODIFICATION LOG:&#xA;Ver      Date        Author           Description&#xA;-------  ----------  ---------------  ------------------------------------------------------------------------&#xA;1.0      26/03/2020  XLOPEZ         1. Build this package for LDSBC IT 243&#xA;1.0      26/03/2020  XLOPEZ         1. Fixed the issue with the stg_p1_bN connection&#xD;&#xA;1.0      26/03/2020  XLOPEZ         1. Renamed my Destination source to &quot;dbo_stg_p1&quot;&#xA;&#xA;&#xA;RUNTIME: &#xA;approx 5 sec&#xA;&#xA;NOTES:  &#xA;&#xA;         &#xA;******************************************************************************************************************/&#xA;"
           ParentId="Package\Documentation"
           FontInfo="{assembly:Null}"
-          Size="604,NaN"
+          Size="604,343.2"
           Id="2abf0a21-b66b-49cb-b51f-b87463d0cb91"
-          TopLeft="6.33333330021969,5.5" />
+          TopLeft="62.9999977151555,15.9000000826518" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="671.2,694.4"
-          Size="172.8,43.2"
+          PanelSize="690.4,694.4"
+          Size="690.4,43.2"
           Id="Package\Documentation"
-          TopLeft="5.5,622.3" />
+          TopLeft="66.333330916034,622.3" />
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\MsgBox check variable"
-          TopLeft="238.5,623.1" />
+          TopLeft="299.333330916034,623.1" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\Parent Container\Reload raw data - Flat File\Foreach Loop Container\Data Flow Task"
@@ -30908,17 +30908,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.5466666666666" />
+                    End="0,41.5466666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,41.5466666666666"
-                    Point2="0,45.5466666666666"
-                    Point3="-4,45.5466666666666" />
+                    Point1="0,41.5466666666667"
+                    Point2="0,45.5466666666667"
+                    Point3="-4,45.5466666666667" />
                   <mssgle:LineSegment
-                    End="-178.6,45.5466666666666" />
+                    End="-178.6,45.5466666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="-178.6,45.5466666666666"
-                    Point2="-182.6,45.5466666666666"
-                    Point3="-182.6,49.5466666666666" />
+                    Point1="-178.6,45.5466666666667"
+                    Point2="-182.6,45.5466666666667"
+                    Point3="-182.6,49.5466666666667" />
                   <mssgle:LineSegment
                     End="-182.6,104.5" />
                 </mssgle:SegmentCollection>
@@ -30927,7 +30927,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.3,50.5466666666666,16,16"
+              BoundingBox="-99.3,50.5466666666667,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -30980,18 +30980,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           PanelSize="371.2,412"
           Size="371.2,455.2"
           Id="Package\Parent Container"
-          TopLeft="387.3,107.1" />
+          TopLeft="448.133330916034,107.1" />
         <NodeLayout
           Size="178.4,41.6"
           Id="Package\SQL LogPackageEnd"
-          TopLeft="483.7,623.1" />
+          TopLeft="544.533330916034,623.1" />
         <NodeLayout
           Size="181.6,41.6"
           Id="Package\SQL LogPackageStart"
-          TopLeft="482.1,5.49999999999995" />
+          TopLeft="542.933330916034,5.49999999999995" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="572.9,562.3">
+          TopLeft="633.733330916034,562.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -31013,7 +31013,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="572.9,47.1">
+          TopLeft="633.733330916034,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -31076,7 +31076,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnVariableValueChanged]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="208.8,41.6"
           Id="Package.EventHandlers[OnVariableValueChanged]\SCR Convert Value to string"
@@ -31104,9 +31104,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -31116,7 +31114,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\Parent Container\Reload raw data - Flat File\Foreach Loop Container\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="145.6,41.6"
           Id="Package\Parent Container\Reload raw data - Flat File\Foreach Loop Container\Data Flow Task\stg_p1_bN_txt"
@@ -31131,22 +31129,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -31171,171 +31167,83 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="120,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All"
-          TopLeft="1241.1,107.1" />
-        <NodeLayout
           Size="126.4,41.6"
           Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p2_txt"
-          TopLeft="1024.9,107.1" />
+          TopLeft="1050.9,107.1" />
         <NodeLayout
           Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b2_txt"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b7_txt"
           TopLeft="5.49999999999991,5.49999999999984" />
         <NodeLayout
           Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b1_txt"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b4_txt"
           TopLeft="209.5,5.49999999999984" />
         <NodeLayout
-          Size="132.8,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2"
-          TopLeft="1021.7,208.7" />
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b1_txt"
+          TopLeft="413.5,5.49999999999984" />
         <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination"
-          TopLeft="1215.5,208.7" />
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Union All Output 1]"
-          TopLeft="1301.1,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output2]"
-          TopLeft="77.0999999999999,47.0999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="1176.61538461538,59.9999999999998"
-              Start="0,0"
-              End="1176.61538461538,52.4999999999998">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5762711864406" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.5762711864406"
-                    Point2="0,49.5762711864406"
-                    Point3="4,49.5762711864406" />
-                  <mssgle:LineSegment
-                    End="1172.61538461538,49.5762711864406" />
-                  <mssgle:CubicBezierSegment
-                    Point1="1172.61538461538,49.5762711864406"
-                    Point2="1176.61538461538,49.5762711864406"
-                    Point3="1176.61538461538,53.5762711864406" />
-                  <mssgle:LineSegment
-                    End="1176.61538461538,52.4999999999998" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output1]"
-          TopLeft="281.1,47.0999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="981.230769230769,59.9999999999998"
-              Start="0,0"
-              End="981.230769230769,52.4999999999998">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.3181818181816" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.3181818181816"
-                    Point2="0,44.3181818181816"
-                    Point3="4,44.3181818181816" />
-                  <mssgle:LineSegment
-                    End="977.230769230769,44.3181818181816" />
-                  <mssgle:CubicBezierSegment
-                    Point1="977.230769230769,44.3181818181816"
-                    Point2="981.230769230769,44.3181818181816"
-                    Point3="981.230769230769,48.3181818181816" />
-                  <mssgle:LineSegment
-                    End="981.230769230769,52.4999999999998" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output]"
-          TopLeft="1088.1,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="149.6,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b10_txt"
+          TopLeft="617.3,5.49999999999984" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b8_txt"
+          TopLeft="827.5,5.49999999999984" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b5_txt"
+          TopLeft="1031.5,5.49999999999973" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b2_txt"
+          TopLeft="1235.5,5.49999999999973" />
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b11_txt"
+          TopLeft="1439.3,5.49999999999973" />
+        <NodeLayout
+          Size="120,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\Union All"
+          TopLeft="1247.1,107.1" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b9_txt"
+          TopLeft="1649.5,5.49999999999973" />
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b6_txt"
+          TopLeft="1853.5,5.49999999999961" />
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b3_txt"
-          TopLeft="413.5,5.49999999999984" />
+          TopLeft="2057.5,5.49999999999961" />
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b12_txt"
+          TopLeft="2261.3,5.49999999999961" />
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1"
+          TopLeft="1240.7,208.7" />
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2"
+          TopLeft="1047.7,208.7" />
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output3]"
-          TopLeft="485.1,47.0999999999998">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Union All Output 1]"
+          TopLeft="1307.1,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="785.846153846154,59.9999999999998"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="785.846153846154,52.4999999999998">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.0684931506848" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.0684931506848"
-                    Point2="0,40.0684931506848"
-                    Point3="4,40.0684931506848" />
-                  <mssgle:LineSegment
-                    End="781.846153846154,40.0684931506848" />
-                  <mssgle:CubicBezierSegment
-                    Point1="781.846153846154,40.0684931506848"
-                    Point2="785.846153846154,40.0684931506848"
-                    Point3="785.846153846154,44.0684931506848" />
-                  <mssgle:LineSegment
-                    End="785.846153846154,52.4999999999998" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31344,19 +31252,83 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b4_txt"
-          TopLeft="617.5,5.49999999999984" />
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output4]"
-          TopLeft="689.1,47.0999999999998">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output12]"
+          TopLeft="2336.1,47.0999999999996">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="590.461538461539,59.9999999999998"
+              EndConnector="-981.615384615385,60"
               Start="0,0"
-              End="590.461538461539,52.4999999999998">
+              End="-981.615384615385,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5762711864408" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.5762711864408"
+                    Point2="0,49.5762711864408"
+                    Point3="-4,49.5762711864408" />
+                  <mssgle:LineSegment
+                    End="-977.615384615385,49.5762711864408" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-977.615384615385,49.5762711864408"
+                    Point2="-981.615384615385,49.5762711864408"
+                    Point3="-981.615384615385,53.5762711864408" />
+                  <mssgle:LineSegment
+                    End="-981.615384615385,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output11]"
+          TopLeft="1514.1,47.0999999999997">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-194.076923076923,59.9999999999999"
+              Start="0,0"
+              End="-194.076923076923,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.6206896551724" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.6206896551724"
+                    Point2="0,33.6206896551724"
+                    Point3="-4,33.6206896551724" />
+                  <mssgle:LineSegment
+                    End="-190.076923076923,33.6206896551724" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-190.076923076923,33.6206896551724"
+                    Point2="-194.076923076923,33.6206896551724"
+                    Point3="-194.076923076923,37.6206896551724" />
+                  <mssgle:LineSegment
+                    End="-194.076923076923,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output10]"
+          TopLeft="692.1,47.0999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="593.461538461539,59.9999999999998"
+              Start="0,0"
+              End="593.461538461539,52.4999999999998">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -31367,13 +31339,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                     Point2="0,36.5624999999998"
                     Point3="4,36.5624999999998" />
                   <mssgle:LineSegment
-                    End="586.461538461539,36.5624999999998" />
+                    End="589.461538461539,36.5624999999998" />
                   <mssgle:CubicBezierSegment
-                    Point1="586.461538461539,36.5624999999998"
-                    Point2="590.461538461539,36.5624999999998"
-                    Point3="590.461538461539,40.5624999999998" />
+                    Point1="589.461538461539,36.5624999999998"
+                    Point2="593.461538461539,36.5624999999998"
+                    Point3="593.461538461539,40.5624999999998" />
                   <mssgle:LineSegment
-                    End="590.461538461539,52.4999999999998" />
+                    End="593.461538461539,52.4999999999998" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31382,25 +31354,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b5_txt"
-          TopLeft="821.5,5.49999999999984" />
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b6_txt"
-          TopLeft="1025.5,5.49999999999973" />
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b8_txt"
-          TopLeft="1229.5,5.49999999999973" />
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b7_txt"
-          TopLeft="1433.5,5.49999999999973" />
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output5]"
-          TopLeft="893.1,47.0999999999998">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output9]"
+          TopLeft="1721.1,47.0999999999997">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-392.461538461539,59.9999999999999"
+              Start="0,0"
+              End="-392.461538461539,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5624999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.5624999999999"
+                    Point2="0,36.5624999999999"
+                    Point3="-4,36.5624999999999" />
+                  <mssgle:LineSegment
+                    End="-388.461538461539,36.5624999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-388.461538461539,36.5624999999999"
+                    Point2="-392.461538461539,36.5624999999999"
+                    Point3="-392.461538461539,40.5624999999999" />
+                  <mssgle:LineSegment
+                    End="-392.461538461539,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output8]"
+          TopLeft="899.1,47.0999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -31433,8 +31423,76 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output7]"
+          TopLeft="77.0999999999999,47.0999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="1182.61538461538,59.9999999999998"
+              Start="0,0"
+              End="1182.61538461538,52.4999999999998">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5762711864406" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.5762711864406"
+                    Point2="0,49.5762711864406"
+                    Point3="4,49.5762711864406" />
+                  <mssgle:LineSegment
+                    End="1178.61538461538,49.5762711864406" />
+                  <mssgle:CubicBezierSegment
+                    Point1="1178.61538461538,49.5762711864406"
+                    Point2="1182.61538461538,49.5762711864406"
+                    Point3="1182.61538461538,53.5762711864406" />
+                  <mssgle:LineSegment
+                    End="1182.61538461538,52.4999999999998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output6]"
-          TopLeft="1097.1,47.0999999999997">
+          TopLeft="1925.1,47.0999999999996">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-587.846153846154,60"
+              Start="0,0"
+              End="-587.846153846154,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.068493150685" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.068493150685"
+                    Point2="0,40.068493150685"
+                    Point3="-4,40.068493150685" />
+                  <mssgle:LineSegment
+                    End="-583.846153846154,40.068493150685" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-583.846153846154,40.068493150685"
+                    Point2="-587.846153846154,40.068493150685"
+                    Point3="-587.846153846154,44.068493150685" />
+                  <mssgle:LineSegment
+                    End="-587.846153846154,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output5]"
+          TopLeft="1103.1,47.0999999999997">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -31467,31 +31525,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output7]"
-          TopLeft="1505.1,47.0999999999997">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output4]"
+          TopLeft="281.1,47.0999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-191.076923076923,59.9999999999999"
+              EndConnector="987.230769230769,59.9999999999998"
               Start="0,0"
-              End="-191.076923076923,52.4999999999999">
+              End="987.230769230769,52.4999999999998">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.6206896551724" />
+                    End="0,40.3181818181816" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.6206896551724"
-                    Point2="0,33.6206896551724"
-                    Point3="-4,33.6206896551724" />
+                    Point1="0,40.3181818181816"
+                    Point2="0,44.3181818181816"
+                    Point3="4,44.3181818181816" />
                   <mssgle:LineSegment
-                    End="-187.076923076923,33.6206896551724" />
+                    End="983.230769230769,44.3181818181816" />
                   <mssgle:CubicBezierSegment
-                    Point1="-187.076923076923,33.6206896551724"
-                    Point2="-191.076923076923,33.6206896551724"
-                    Point3="-191.076923076923,37.6206896551724" />
+                    Point1="983.230769230769,44.3181818181816"
+                    Point2="987.230769230769,44.3181818181816"
+                    Point3="987.230769230769,48.3181818181816" />
                   <mssgle:LineSegment
-                    End="-191.076923076923,52.4999999999999" />
+                    End="987.230769230769,52.4999999999998" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31501,8 +31559,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output8]"
-          TopLeft="1303.25384615385,47.0999999999997">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output3]"
+          TopLeft="2129.1,47.0999999999996">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-783.230769230769,60"
+              Start="0,0"
+              End="-783.230769230769,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.3181818181818" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.3181818181818"
+                    Point2="0,44.3181818181818"
+                    Point3="-4,44.3181818181818" />
+                  <mssgle:LineSegment
+                    End="-779.230769230769,44.3181818181818" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-779.230769230769,44.3181818181818"
+                    Point2="-783.230769230769,44.3181818181818"
+                    Point3="-783.230769230769,48.3181818181818" />
+                  <mssgle:LineSegment
+                    End="-783.230769230769,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output2]"
+          TopLeft="1309.25384615385,47.0999999999997">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -31522,48 +31614,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b9_txt"
-          TopLeft="1637.5,5.49999999999973" />
-        <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b12_txt"
-          TopLeft="1841.3,5.49999999999961" />
-        <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b10_txt"
-          TopLeft="2051.3,5.49999999999961" />
-        <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data\stg_p1_b11_txt"
-          TopLeft="2261.3,5.49999999999961" />
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output9]"
-          TopLeft="1709.1,47.0999999999997">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output1]"
+          TopLeft="485.1,47.0999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-386.461538461539,59.9999999999999"
+              EndConnector="791.846153846154,59.9999999999998"
               Start="0,0"
-              End="-386.461538461539,52.4999999999999">
+              End="791.846153846154,52.4999999999998">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.5624999999999" />
+                    End="0,36.0684931506848" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,32.5624999999999"
-                    Point2="0,36.5624999999999"
-                    Point3="-4,36.5624999999999" />
+                    Point1="0,36.0684931506848"
+                    Point2="0,40.0684931506848"
+                    Point3="4,40.0684931506848" />
                   <mssgle:LineSegment
-                    End="-382.461538461539,36.5624999999999" />
+                    End="787.846153846154,40.0684931506848" />
                   <mssgle:CubicBezierSegment
-                    Point1="-382.461538461539,36.5624999999999"
-                    Point2="-386.461538461539,36.5624999999999"
-                    Point3="-386.461538461539,40.5624999999999" />
+                    Point1="787.846153846154,40.0684931506848"
+                    Point2="791.846153846154,40.0684931506848"
+                    Point3="791.846153846154,44.0684931506848" />
                   <mssgle:LineSegment
-                    End="-386.461538461539,52.4999999999999" />
+                    End="791.846153846154,52.4999999999998" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31573,99 +31649,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output10]"
-          TopLeft="2126.1,47.0999999999996">
+          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output]"
+          TopLeft="1114.1,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-786.230769230769,60"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="-786.230769230769,52.5">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.3181818181818" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.3181818181818"
-                    Point2="0,44.3181818181818"
-                    Point3="-4,44.3181818181818" />
-                  <mssgle:LineSegment
-                    End="-782.230769230769,44.3181818181818" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-782.230769230769,44.3181818181818"
-                    Point2="-786.230769230769,44.3181818181818"
-                    Point3="-786.230769230769,48.3181818181818" />
-                  <mssgle:LineSegment
-                    End="-786.230769230769,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output11]"
-          TopLeft="2336.1,47.0999999999996">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-987.615384615385,60"
-              Start="0,0"
-              End="-987.615384615385,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5762711864408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.5762711864408"
-                    Point2="0,49.5762711864408"
-                    Point3="-4,49.5762711864408" />
-                  <mssgle:LineSegment
-                    End="-983.615384615385,49.5762711864408" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-983.615384615385,49.5762711864408"
-                    Point2="-987.615384615385,49.5762711864408"
-                    Point3="-987.615384615385,53.5762711864408" />
-                  <mssgle:LineSegment
-                    End="-987.615384615385,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Parent Container\Reload raw data - Flat File\Load Data.Paths[Flat File Source Output12]"
-          TopLeft="1916.1,47.0999999999996">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-584.846153846154,60"
-              Start="0,0"
-              End="-584.846153846154,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.068493150685" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.068493150685"
-                    Point2="0,40.068493150685"
-                    Point3="-4,40.068493150685" />
-                  <mssgle:LineSegment
-                    End="-580.846153846154,40.068493150685" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-580.846153846154,40.068493150685"
-                    Point2="-584.846153846154,40.068493150685"
-                    Point3="-584.846153846154,44.068493150685" />
-                  <mssgle:LineSegment
-                    End="-584.846153846154,52.5" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31678,7 +31674,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2">
+    design-time-name="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -31691,7 +31687,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Parent Container\Reload raw data - Flat File\Load Data\OLE DB Destination">
+    design-time-name="Package\Parent Container\Reload raw data - Flat File\Load Data\dbo_stg_p2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
