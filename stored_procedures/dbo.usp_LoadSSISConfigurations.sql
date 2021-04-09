@@ -26,6 +26,8 @@ Ver      Date        Author           Description
 1.0      11/03/2019  JJAUSSI          1. Created this process for LDS BC IT243
 1.1      19/03/2021  XLOPEZ           1. Added DFNB3 connection configuration
 1.2      25/03/2021  XLOPEZ           1. Added LoadDFNB3_xl configuration
+1.3      26/03/2021  XLOPEZ           1. Added LoadEXM_xl configuration
+1.4      26/03/2021  XLOPEZ           1. Added LoadNAICSCodeHierDim_xl configuration
 
 
 RUNTIME: 
@@ -185,6 +187,26 @@ SELECT c.*
          , 'String'
           );
 
+
+--  3.4) LoadNAICSCodeHierDim_xl
+
+    DELETE FROM dbo.[SSIS Configurations]
+     WHERE ConfigurationFilter = 'LoadNAICSCodeHierDim_xl';
+	
+
+	-- 3.1.1) v_data_share_root
+
+    INSERT INTO dbo.[SSIS Configurations](ConfigurationFilter
+                                        , ConfiguredValue
+                                        , PackagePath
+                                        , ConfiguredValueType)
+    VALUES
+          (
+           'LoadNAICSCodeHierDim_xl'
+		 , 'C:\Classes\IT243\Repos\DFNB_dw_xl\xls_files'
+         , '\Package.Variables[User::v_data_share_root].Properties[Value]'
+         , 'String'
+          );
 
 END;
 
